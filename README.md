@@ -46,6 +46,33 @@ Task is to Design a Lightweight KYC Mobile App for Bharat targeting rural and se
  - Simple Interface with clear icons providing easy navigation.
  - Support in local language, anyway between application submission process.
  - Intuitive onboarding and tutorials can help the users to understand well.
+## Innovative Features using LLMs
+SecureKYC app leverages Large Language Models (LLMs) to provide personalized user guidance in preferred local language, provide protection against unauthorized document verification, making onboarding easier and more trustworthy also sends alert messages when offline to registered mobile numbers.
+### 🌐Innovative LLM-powered Features
+- Voice & Visual Chatbots: AI-based voice and visual guides help rural and semi-urban users in local languages and provide voice instructions in sequence for every screen, improving trust and ease of use. 
+- LLM based OCR for Document Verification: Straight away extract and validate KYC details from uploaded document or Digilocker documents, reducing manual entry and discrepancy.
+- Offline and retry friendly mode with LLM and local data storage: Leveraging LLM to logically forecast and process form data in low bandwidth by compressing and interpreting data with the local caching and app design
+## SDK Size Optimization  Methods
+ - Using modular SDKs to load only needed features on demand or when required.
+ - Implementing model quantization to reduce the size of Machine Learning Model by lowering precision of weight. which intensely shrinks model storage along with minimal loss of accuracy. 
+ - Model pruning to remove unwanted neural network connection, which reduces complexity hence reduces size.
+ - Employ lazy loading for extensive external dependencies (e.g. document image processing library), loaded when needed at runtime.
+ - Offload complex processes like identity verification to backend server using APIs.
+## Measuring Success & Security Approach
+### ⚖ Measuring Success:
+ - Analyzing number of user acquisition and retention rates.
+ - Successful completion and submission of KYC application.
+ - Time taken during Verification and error scores during digital onboarding.
+ - User satisfaction and overall feedback percentage by the users. 
+ - Number of downloads by the users, will eventually represent app success.
+ ### 🛡️Security Concerns & Solutions:
+ - Data privacy: Encryption of sensitive user data using mathematical algorithms
+ - Device and session authentication: Using multi-factor authentication at the time login other than username and password for extra safety concerns.
+ - Fraud detection and prevention: Implementing biometric verification like (face liveness, document validation, and face recognition.
+ - Security via APIs: real-time identity verification and alert messages.
+ - Offline data privacy: Local data storage along with encryption and auto sync feature.
+
+
 
 
 
