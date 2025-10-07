@@ -1,19 +1,19 @@
 # 🪪 Secure_KYC
 ## 📝 Problem Statement & Context
 About 65–70% Indians are residents of rural and semi-urban areas, where Digital literacy is seen to be low, internet connectivity is poor and the specifications of smart phone are relatively plain.
-### Significant Difficulties:
+### 🚧Significant Difficulties:
 - KYC processes are slow and error-prone in digital with low-end devices and poor internet.
 - Novice users don’t understand sellers’ complex KYC process.
 - Difficulties filing documents and concerns about data security.
 - Offilne support and retry mechanisms are must due to connectivity black-holes.
 Task is to Design a Lightweight KYC Mobile App for Bharat targeting rural and semi-urban India, where smartphone specs are low-end, bandwidth is limited, and users may not be digitally literate.
-### The app must support:
+### 📌The app must support:
 - Digilocker-based KYC
 - Document-based KYC (Aadhaar, PAN, DL, VoterID)
 - Face authentication (liveness, facematch checks)
 - Integration with other client apps (SDK integration, web-redirection, etc.)
 - Offline & retry-friendly mode
-### Features & key elements
+### ✅Features & key elements
 1. Product Design & UX:
 - How will the app work for users with low digital literacy?
 - What will the user flow look like (screens, guidance, fail-safes)? Create wireframes.
@@ -29,4 +29,16 @@ Task is to Design a Lightweight KYC Mobile App for Bharat targeting rural and se
 - How would you measure the success of the app?
 - Any security concerns and how you’ll solve them?
 - Any security concerns and how you’ll solve them?
+## 💡Solution & App Designing
+“SecureKYC” is designed to keep digital onboarding simple for rural and semi-urban Bharat. The focus is on a simple interface and support for low bandwidth to accommodate literacy and connectivity challenges, with AI-powered voice-activated and visual assistance.
+ ### 🧩Key Features:
+ - Language selection and Easy to use for the user
+ - Next-gen LLM-powered voice & visual chatbots and local language guides.
+ - LLM based OCR (Optical Character Recognition) for Digilocker & document processing.
+ - Offline form filling with option to auto-save.
+ - Digilocker Integration and the document-based KYC (Aadhaar, PAN, Voter ID).
+ - Liveness and facematch checks for face authentication.
+ - Integrations into client apps through SDK & webRedirects
+ - Alert message to the registered mobile number for the form's interrupted submission.
+
 
