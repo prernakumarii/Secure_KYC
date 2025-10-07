@@ -13,3 +13,20 @@ Task is to Design a Lightweight KYC Mobile App for Bharat targeting rural and se
 - Face authentication (liveness, facematch checks)
 - Integration with other client apps (SDK integration, web-redirection, etc.)
 - Offline & retry-friendly mode
+### Features & key elements
+1. Product Design & UX:
+- How will the app work for users with low digital literacy?
+- What will the user flow look like (screens, guidance, fail-safes)? Create wireframes.
+- What offline/low-network support will you offer?
+2. Features:
+- Suggest and implement 2-3 innovative features to improve trust or ease of use using LLMs.
+- How will you prioritise which features to build? Create a Prioritisation Matrix
+3. Technical Architecture:
+- How will you optimize SDK size?
+- What trade-offs will you make between on-device vs server-side processing (e.g., facematch, liveness)?
+- How will you handle low bandwidth and retry/resume flows?
+4. Miscellaneous:
+- How would you measure the success of the app?
+- Any security concerns and how you’ll solve them?
+- Any security concerns and how you’ll solve them?
+
