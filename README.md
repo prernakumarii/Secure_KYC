@@ -40,5 +40,12 @@ Task is to Design a Lightweight KYC Mobile App for Bharat targeting rural and se
  - Liveness and facematch checks for face authentication.
  - Integrations into client apps through SDK & webRedirects
  - Alert message to the registered mobile number for the form's interrupted submission.
+## ⚠️User Challenge and Wireframes
+### How will the app work for users with low digital literacy?
+ - “SecureKYC” eliminates the language barrier problem by being multilingual, providing user the benefit  to choose the language they are comfortable in.
+ - Simple Interface with clear icons providing easy navigation.
+ - Support in local language, anyway between application submission process.
+ - Intuitive onboarding and tutorials can help the users to understand well.
+
 
 
